@@ -47,14 +47,16 @@ p {
 
 #imgprofil {
   z-index: 1;
-  margin-top: 20px;
-  margin-right: 10%;
-  margin-left: -15%;
+  width: 320px;
+  height: 300px;
+  margin-left: -10%;
+  margin-top: 10%;
   border-radius: 200px;
-  box-shadow: 5px 5px 5px grey; }
+  box-shadow: 5px 5px 5px grey;
+  transform: rotate(270deg); }
 
 #contenulogo {
-  margin-left: 800px; }
+  margin-left: 80%; }
   #contenulogo #logo {
     width: 10%;
     padding: 12px 12px 12px 12px;
@@ -119,7 +121,7 @@ p {
 .titres {
   z-index: 1;
   height: 40px;
-  width: 700px;
+  width: 70%;
   background-color: #337B82;
   padding: 5px 5px 20px 5px;
   margin-top: 50px;
@@ -133,7 +135,7 @@ p {
     margin-left: 30px; }
 
 .mini {
-  width: 350px;
+  width: 95%;
   border-radius: 10px 0px 0px 10px;
   box-shadow: inset 10px 5px 50px #54949A; }
 
